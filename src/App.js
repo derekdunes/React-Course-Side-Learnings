@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import UserFinder from './components/UserListApp/UserFinder';
+// import MovieRoot from './components/MovieApp/MovieRoot';
+// import RootCounter from './components/CustomHooksTut/BasicHooksApp/RootCounter';
+// import RootApp from './components/CustomHooksTut/MainHooksApp/RootApp';
+//import Clock from './components/ClockApp/Clock';
+//import FormRoot from './components/FormApp/FormRoot';
+import NavBar from './components/NavBarTest/NavBar';
+import Weather from './components/WeatherApp/WeatherRoot';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UserFinder /> */}
+      {/* <MovieRoot /> */}
+      {/* <NavBar /> */}
+      <Weather />
+      {/* <RootCounter /> */}
+      {/* <RootApp /> */}
+      {/* <FormRoot /> */}
+      {/* <Clock/> */}
     </div>
   );
 }
